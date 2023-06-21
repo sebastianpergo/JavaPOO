@@ -5,5 +5,8 @@ public class Main {
 
         System.out.println(jaguarObj);
 
+        // Ejemplo de herencia
+        jaguarObj.eat();
+        jaguarObj.sleep();
     }
 }

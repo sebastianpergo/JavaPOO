@@ -1,4 +1,4 @@
-public class Jaguar {
+public class Jaguar extends Animal {
     // Atributes
     private int age;
     private String name;
@@ -8,7 +8,8 @@ public class Jaguar {
         this.setAge(age);
         this.setName(name);
     }
-    
+
+    // Getters and Setters
     public int getAge() {
         return age;
     }
