@@ -1,5 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        // Instancia = a crear un objeto
+        Jaguar jaguarObj = new Jaguar(18, "Max");
+
+        System.out.println(jaguarObj);
+
     }
 }
